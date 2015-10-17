@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="220dp"
+    android:focusable="false"
+    android:orientation="vertical"
+    >
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       >
+
+
+        <ImageView
+            android:id="@+id/movie_poster1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitStart"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/movie_poster1" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/movie_poster1"
+            android:layout_gravity="bottom"
+            android:background="#3B3B3B"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:id="@+id/movie_bar_layout"
+            android:listSelector="@drawable/button_focused">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/movie_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Big Dady"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="252px"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left">
+
+                <TextView
+                    android:id="@+id/movie_main_character"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Play Fetured Movie"
+                    android:gravity="left"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#777777" />
+
+                <!--
+                <ImageView-->
+                    <!--android:id="@+id/movie_ic_1"-->
+                    <!--android:layout_width="24dp"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_height="21dp"-->
+                    <!--android:lines="1"-->
+                    <!--android:scaleType="fitCenter"-->
+                    <!--android:src="@drawable/movie_ic" />
+                    -->
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TangoTv</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="musicTxt">Music</string>
+    <string name="movieTxt">Movies</string>
+    <string name="seriesTxt">TV Shows</string>
+    <string name="kids">Kids</string>
+    <string name="endPoint">http://localhost:9000</string>
+    <string name="movie_details">In hac habitasse platea dictumst. Phasellus eget commodo risus, at finibus lectus. Nullam sodales mattis diam, quis egestas ex accumsan et. Maecenas justo neque, cursus non gravida in, mattis sed lectus. Aliquam mi dolor, vehicula vitae odio in, iaculis dapibus lorem.</string>
+    <string-array name="Movie">
+        <item name="bidDady">Big dady</item>
+    </string-array>
+</resources>
