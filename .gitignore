@@ -1,5 +1,6 @@
 .gradle
 *.log
+*.apk
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
